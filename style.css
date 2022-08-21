@@ -1,0 +1,132 @@
+
+.text-bootstrap {
+    color: #97c93e !important;
+  }
+  
+  .btn-bootstrap{
+    background-color: #97c93e;
+    color: white;
+  }
+  
+  .btn-bootstrap:hover {
+    background-color: #82ad36;
+  }
+  
+  #header img {
+    width: 80px;
+  }
+  
+  #main .carousel-inner img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+  }
+  
+  #carousel {
+    position: relative;
+  }
+  
+  #carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
+  
+  #place-time {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  #place-time img {
+    max-width: 100%;
+  }
+  
+
+  h3, .card-title {
+    color: #343a40;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .card{
+      width:100%;
+      margin: 10px;
+      padding: 10px;
+     
+  }
+  iframe{
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+  }
+  .top-personajes_titulo {
+    color: white;
+    font-size: 2.0em;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom:15px;
+    background-color: #343a40;
+    border-radius: 10px;
+  }
+
+
+  /* Style all font awesome icons */
+ 
+
+ .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+.ext-center center-block a:hover{
+color: #82ad36;
+font-size: 50px;
+}
+  /* Fin Style all font awesome icons */
+
+
+  #footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  }
+  
+  #footer a {
+    color: white;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    #carousel .overlay {
+      display: none;
+    }
+    .top-personajes_titulo {
+      color: white;
+      font-size: 1.6em;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom:15px;
+      background-color: #343a40;
+      border-radius: 10px;
+    }
+  
+  }
+    
